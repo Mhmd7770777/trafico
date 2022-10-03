@@ -18,7 +18,7 @@ const Footer = ({ footerData }) => {
         variants={staggerFooterContainer}
         initial="initial"
         whileInView={"animate"}
-        viewport={{ once: false, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.1 }}
         className="container mx-auto lg:min-h-[738px] flex flex-col justify-between"
       >
         <motion.div

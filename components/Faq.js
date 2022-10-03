@@ -22,7 +22,7 @@ const Faq = ({ faqData }) => {
           variants={staggerTextContainer}
           initial="initial"
           whileInView={"animate"}
-          viewport={{ once: false, amount: 0.6 }}
+          viewport={{ once: true, amount: 0.6 }}
           className="relative flex flex-col lg:flex-row justify-center lg:justify-start items-center pt-8 pb-16 lg:pt-16 lg:pb-32 "
         >
           {/* {text} */}
@@ -43,7 +43,7 @@ const Faq = ({ faqData }) => {
           variants={staggerAccordionContainer}
           initial="initial"
           whileInView={"animate"}
-          viewport={{ once: false, amount: 0.4 }}
+          viewport={{ once: true, amount: 0.4 }}
           className="grid grid-cols-1 lg:grid-cols-2 gap-x-[20px] gap-y-[10px]"
         >
           {accordions.map((accordion, idx) => {
